@@ -34,9 +34,11 @@ function makeSound(key){
             var kick_bass = new Audio("sounds/kick-bass.mp3");
             kick_bass.play();
             break;
-        default: 
+        case "l":
             var snare = new Audio("sounds/snare.mp3");
             snare.play();
             break;
+        default: 
+        console.log();
     }
 }
